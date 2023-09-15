@@ -10,10 +10,10 @@ function tocaSomPom () {
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
   
+let contador = 0;
 
+while (contador ){
 
-while (){
-    
 listaDeTeclas [0].onclick = tocaSomPom;
 
 }
