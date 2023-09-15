@@ -9,4 +9,12 @@ function tocaSomPom () {
     
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
+  
+
+
+while (){
+    
+listaDeTeclas [0].onclick = tocaSomPom;
+
+}
 
