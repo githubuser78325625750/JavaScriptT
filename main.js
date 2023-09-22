@@ -21,13 +21,12 @@ while (contador < listaDeTeclas.length) {
 
     tecla.onclick = function () {
 
-tocaSom ('idAudio');
+tocaSom (idAudio);
 
 }
 
 contador = contador + 1;
-console.log(contador):
-
+console.log(contador);
     }
 
 
