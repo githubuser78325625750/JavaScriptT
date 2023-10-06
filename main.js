@@ -8,7 +8,7 @@ function tocaSom (idElementoAudio) {
 
     
 
-const listaDeTeclas = document.querySelectorAll('.tecla');
+const listaDeTeclas = document.querySelectorAll('.tecla_Pom');
   
 let contador = 0;
 
