@@ -24,7 +24,8 @@ let contador = 0;
         tocaSom (idAudio);
 
     }
-        console.log (contador);
+        
+
 }
 
 
