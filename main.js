@@ -20,10 +20,11 @@ let contador = 0;
     const idAudio = `#som_${instrumento}`;
 
     tecla.onclick = function () {
-tocaSom (idAudio);
 
-}
+        tocaSom (idAudio);
 
+    }
+        console.log (contador);
 }
 
 
