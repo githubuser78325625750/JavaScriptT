@@ -25,6 +25,14 @@ let contador = 0;
 
     }
         
+  tecla.onkeydown = function () {
+
+  tecla.classlist.add ('ativa');
+}
+tecla.onkeyup = function () {
+  tecla.classlist.remove ('ativa');
+
+}
 
 }
 
