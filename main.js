@@ -26,7 +26,7 @@ let contador = 0;
     }
         
   tecla.onkeydown = function () {
-
+ if
   tecla.classlist.add ('ativa');
 }
 tecla.onkeyup = function () {
