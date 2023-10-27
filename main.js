@@ -24,9 +24,12 @@ let contador = 0;
         tocaSom (idAudio);
 
     }
-        tecla.onkeydown
- 
+        tecla.onkeydown = function (){
 
+
+            tecla.classList.add ('ativa')
+        } 
+      tecla.classList.remove ('ativa')
 }
 
 
