@@ -27,10 +27,14 @@ let contador = 0;
         tecla.onkeydown = function (){
 
 
-            tecla.classList.add ('ativa')
+            tecla.classList.add ('ativa');
         } 
-      tecla.classList.remove ('ativa')
-}
+        tecla.onkeyup = function (){
+            
+
+        }
+    }
+      
 
 
 
