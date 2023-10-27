@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  background-color: #0060df;
+  background-color: var(--branca);
   color: var(--branca);
   margin-bottom: 20px;
   font-size: 2rem;
