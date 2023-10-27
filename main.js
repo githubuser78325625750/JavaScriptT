@@ -24,7 +24,7 @@ let contador = 0;
         tocaSom (idAudio);
 
     }
-        
+        tecla.onkeydown
  
 
 }
