@@ -24,12 +24,16 @@ let contador = 0;
         tocaSom (idAudio);
 
     }
-        tecla.onkeydown = function (){
+        tecla.onkeydown = function (evento){
 
+            if ('Space') {
+           tecla.classList.add ('ativa');
 
-            tecla.classList.add ('ativa');
+            }
+
         } 
         tecla.onkeyup = function (){
+            tecla.classList.remove('ativa');
             
 
         }
